@@ -22,7 +22,7 @@ The expression contain:
 for details please look swagger documenation:
 http://[your host]:[port]/calculator-1.0//swagger-ui.html
 
-Then implement an service evaluating the input expression in Java use REST, Spring, JAX-WS.
+Implement is a service evaluating the input expression in Java use REST, Spring Boot, JAX-WS.
 
 # build && deploy
 For .war file creation use:
