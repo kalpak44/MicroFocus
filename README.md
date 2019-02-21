@@ -12,7 +12,7 @@ Input example:
 		"a":"AAAAA",
 		"b":-5
 	},
-	"expression":"sizeof(a)+2*b-(abs(3-b)"
+	"expression":"sizeof(a)+2*b-abs(3-b)"
 }
 ```
 The expression contain:
@@ -22,10 +22,22 @@ The expression contain:
   - unary operator sizeof (string) – length of the string argument
   - unary operator abs(int)  - absolute value of the integer argument
   
+ Example response:
+ 
+```json
+{
+    "variables": {
+        "a": "AAAAA",
+        "b": -5
+    },
+    "expression": "sizeof(a)+2*b-abs(3-b)",
+    "result": -13
+}
+```
 for details please look swagger documenation:
 http://[your host]:[port]/calculator-1.0//swagger-ui.html
 
-Implement is a service evaluating the input expression in Java use REST, Spring Boot, JAX-WS.
+
 
 # build && deploy
 For .war file creation use:
