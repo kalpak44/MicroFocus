@@ -1,7 +1,10 @@
 # Micro Focus
 **Assignment Topic:** Design and implemention an service evaluating algebraic expressions in JAVA.
+
 **Deliverables:** source codes, build script creating an war file deployable on an common servlet container (e.g. Tomcat)
+
 **Assignment:**  Design an input format suitable for representation of algebraic expressions. (JSON).
+
 Input example:
 ```json
 {
