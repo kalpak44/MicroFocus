@@ -152,7 +152,7 @@ public class ExpressionCalculatorServiceImpl implements ExpressionCalculatorServ
         Stack<Object> stack = new Stack<>();
         while (tokenizer.hasMoreTokens()) {
             String token = tokenizer.nextToken();
-            // Операнд.
+            // Operand.
             if (!MAIN_MATH_OPERATIONS.keySet().contains(token)) {
                 if (variables.containsKey(token)) {
                     Object o = variables.get(token);
