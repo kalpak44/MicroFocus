@@ -5,6 +5,7 @@
 
 **Assignment:**  Design an input format suitable for representation of algebraic expressions. (JSON).
 
+# Solution
 Input example:
 ```json
 {
