@@ -8,7 +8,8 @@
 # Solution
 do POST http://[your host]:[port]/calculator-1.0/calculate
 
-header['****Accept**'] = **application/json**
+header['**Accept**'] = **application/json**
+
 Input example:
 ```json
 {
