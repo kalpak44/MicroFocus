@@ -7,7 +7,8 @@
 
 # Solution
 do POST http://[your host]:[port]/calculator-1.0/calculate
-header['Accept'] = application/json
+
+header['****Accept**'] = **application/json**
 Input example:
 ```json
 {
@@ -38,7 +39,7 @@ The expression contain:
 }
 ```
 for details please look swagger documenation:
-http://[your host]:[port]/calculator-1.0//swagger-ui.html
+http://[your host]:[port]/calculator-1.0/swagger-ui.html
 
 
 
