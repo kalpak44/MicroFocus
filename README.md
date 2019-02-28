@@ -33,6 +33,16 @@ The infix expression `((15 ÷ (7 − (1 + 1))) × 3) − (2 + (1 + 1))` can be w
 
 > 15 7 1 1 + − ÷ 3 × 2 1 1 + + −
 
+## Web service (using spring boot)
+**Spring Boot** contains a comprehensive infrastructure support for developing a micro service (rest-api).
+
+* Simple scalability
+* Compatible with Containers
+* Minimum configuration
+* esser production time
+
+### API using example
+
 do POST http://[your host]:[port]/calculator-1.0/calculate
 
 header['**Accept**'] = **application/json**
