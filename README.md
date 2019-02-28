@@ -39,15 +39,15 @@ The infix expression `((15 ÷ (7 − (1 + 1))) × 3) − (2 + (1 + 1))` can be w
 * Simple scalability
 * Compatible with Containers
 * Minimum configuration
-* esser production time
+* Lesser production time
 
 ### API using example
 
 do POST http://[your host]:[port]/calculator-1.0/calculate
 
-header['**Accept**'] = **application/json**
+Header['**Accept**'] = **application/json**
 
-Input example:
+Body:
 ```json
 {
 	"variables":{
@@ -57,12 +57,12 @@ Input example:
 	"expression":"sizeof(a)+2*b-abs(3-b)"
 }
 ```
-The expression contain:
-  - integer constant
-  - string constant
+The expression can contains:
+  - integer constants
+  - string constants
   - binary operators +,-,*,/
-  - unary operator sizeof (string) – length of the string argument
-  - unary operator abs(int)  - absolute value of the integer argument
+  - unary operators sizeof (string) – length of the string argument
+  - unary operators abs(int)  - absolute value of the integer argument
   
  Example response:
  
