@@ -6,6 +6,8 @@
 **Assignment:**  Design an input format suitable for representation of algebraic expressions. (JSON).
 
 # Solution
+do POST http://[your host]:[port]/calculator-1.0/calculate
+header['Accept'] = application/json
 Input example:
 ```json
 {
